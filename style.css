@@ -257,4 +257,76 @@ footer {
   font-weight: 200;
 }
 
-/* Subscribe to newsletter */
+/* Equipment classes */
+
+.container1 {
+  width: 100%;
+}
+
+.container1 .row {
+  width: 80%;
+  margin: auto;
+}
+
+.container1 .row .header {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.container1 .row .header h1 {
+  padding-top: 30px;
+  font-size: 45px;
+  color: var(--dark-color);
+}
+
+.container1 .row .header p {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.content .element {
+  flex: 1;
+  margin: 50px 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.content .element img {
+  width: 40%;
+  height: auto;
+}
+
+.content .element h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.content .element p {
+  font-size: 15px;
+  color: var(--dark-color);
+  line-height: 1.5;
+  padding: 10px;
+}
+.content .element a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+}
