@@ -197,11 +197,11 @@ footer {
   height: 30px;
 }
 
-.footer-content h3 {
-  font-size: 1.4rem;
+.footer-content h4 {
+  font-size: 20px;
   font-weight: 400;
   text-transform: capitalize;
-  line-height: 3rem;
+  line-height: 48px;
   height: 30px;
 }
 
@@ -217,7 +217,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 5px 3rem 0;
+  margin: 16px 5px 48px 0;
   height: 10px;
 }
 
@@ -231,7 +231,7 @@ footer {
 }
 
 .socials a i {
-  font-size: 1.1rem;
+  font-size: 17.6px;
 }
 
 .socials i:hover {
