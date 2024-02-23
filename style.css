@@ -2,6 +2,20 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header1 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(7, 55, 39, 0.258),
+      rgba(112, 122, 160, 0.303)
+    ),
+    url(images/home-workouts-1.jpg);
+  background-position: center;
+  background-position: cover;
+  position: relative;
 }
 
 :root {
@@ -16,6 +30,7 @@ body {
   line-height: 1.5;
   background: #fff;
 }
+/* Navigation bar*/
 
 a {
   text-decoration: none;
@@ -29,53 +44,56 @@ ul {
 img {
   max-width: 100%;
 }
-
-/* Navigation bar*/
-
-.navbar {
-  background-color: #fff;
-  padding: 20px;
-}
-
-.navbar .container {
+nav {
   display: flex;
+  padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar .main-menu ul {
-  display: flex;
+nav img {
+  width: 50px;
 }
 
-.navbar ul li a {
-  padding: 10px 20px;
-  display: block;
-  font-weight: 600;
-  transition: 0.5s;
+.nav-links {
+  flex: 1;
+  text-align: right;
 }
-.navbar ul li a:hover {
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li a:hover {
   color: var(--primary-color);
 }
 
-.navbar ul li a i {
-  margin-right: 10px;
-}
-
-.navbar ul li:last-child a {
-  margin-left: 10px;
-}
-
 /* Main */
-
 .main {
-  margin-bottom: 50px;
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.main h1 {
+  font-size: 62px;
 }
 
-.main .container {
-  background: url("../images/main-image.jpg") no-repeat;
-  background-size: contain;
-  background-position: center bottom;
-  height: 550px;
+.main p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: white;
 }
 
 .main .main-content {
@@ -106,7 +124,7 @@ img {
 .btn {
   display: inline-block;
   padding: 13px 20px;
-  background: var(--light-color);
+  background: #193442;
   color: #333;
   font-weight: 600;
   text-decoration: none;
@@ -133,6 +151,25 @@ img {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 20px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background: var(--primary-color);
+    height: 25%;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
 }
 
 /* Text classes */
@@ -176,6 +213,8 @@ img {
   text-align: center;
 }
 
+/* Footer classes*/
+
 footer {
   position: absolute;
   padding: 0;
@@ -211,6 +250,8 @@ footer {
   line-height: 28px;
   font-size: 14px;
 }
+
+/* Socials classes*/
 
 .socials {
   list-style: none;
@@ -264,7 +305,7 @@ footer {
 }
 
 .container1 .row {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -289,21 +330,29 @@ footer {
 
 .content {
   display: flex;
+
   justify-content: center;
   align-items: center;
+
   margin: auto;
   padding: 10px;
 }
 
 .content .element {
   flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
   margin: 50px 20px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
+.element a {
+  margin: 5px;
+}
+
 .content .element img {
-  width: 40%;
+  width: 60%;
   height: auto;
 }
 
@@ -329,4 +378,63 @@ footer {
   .content {
     flex-direction: column;
   }
+}
+
+/*Blog classes*/
+
+.tips {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.tips h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.tips p {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+.row-blog {
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col-blog {
+  flex-basis: 31%;
+  background: #add8e6;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.tips h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.col-blog:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+  .row-blog {
+    flex-direction: column;
+  }
+}
+
+.row-blog .col-blog p {
+  width: 300px;
+  height: 300px;
+  overflow: auto;
 }
