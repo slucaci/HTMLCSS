@@ -26,14 +26,15 @@
         <a href="index.html">
           <img src="images/logo.png" alt="Logo HomeWorkout Website" />
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="navbar-links">
+          <i class="fa fa-window-close" onclick="hideMenu()"></i>
           <ul>
             <li>
               <a href="index.html"> <i class="fa-solid fa-house"></i>Home </a>
             </li>
             <li>
-              <a href="aboutus.html">
-                <i class="fa-solid fa-circle-info"></i>About Us
+              <a href="contactus.html">
+                <i class="fa-solid fa-circle-info"></i>Contact Us
               </a>
             </li>
             <li>
@@ -46,25 +47,26 @@
             </li>
           </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
       <div class="main">
         <h1 class="main-heading text-xxl">Equipment</h1>
+        <p class="text-xxl bold-text">
+          Looking to elevate your home workouts? Amazon offers a range of
+          top-quality equipment. Browse for durable dumbbells, versatile
+          resistance bands, and space-saving yoga mats. Access these essentials
+          and take your fitness journey to the next level from the comfort of
+          your home.
+        </p>
       </div>
     </section>
 
     <!-- Amazon links with images and text-->
 
-    <div class="container1">
+    <div class="container-equipment">
       <div class="row">
         <div class="header">
           <h1>Our Recomandations</h1>
-          <p>
-            Looking to elevate your home workouts? Amazon offers a range of
-            top-quality equipment. Browse for durable dumbbells, versatile
-            resistance bands, and space-saving yoga mats. Access these
-            essentials and take your fitness journey to the next level from the
-            comfort of your home.
-          </p>
         </div>
         <div class="content">
           <div class="element">
@@ -78,7 +80,7 @@
               affordable tool, perfect for home workouts or on-the-go exercise.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49FIybh"
               target="_blank"
             >
@@ -97,7 +99,7 @@
               effective home fitness experience.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49FJYCJ"
               target="_blank"
             >
@@ -115,7 +117,7 @@
               workout experience to build muscle.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49GTuFO"
               target="_blank"
             >
@@ -138,7 +140,7 @@
               portability.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49m2K2j"
               target="_blank"
             >
@@ -158,7 +160,7 @@
               workout experience to build muscle and improve overall fitness.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49GTuFO"
               target="_blank"
             >
@@ -176,7 +178,7 @@
               workout experience to build muscle and improve overall fitness.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49GTuFO"
               target="_blank"
             >
@@ -194,7 +196,7 @@
               workout experience to build muscle and improve overall fitness.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49GTuFO"
               target="_blank"
             >
@@ -212,7 +214,7 @@
               workout experience to build muscle and improve overall fitness.
             </p>
             <a
-              class="btn btn-light"
+              class="btn btn-dark"
               href="https://amzn.to/49GTuFO"
               target="_blank"
             >
@@ -251,5 +253,16 @@
         <p>copyright &copy; StrongBodyPulse 2024</p>
       </div>
     </footer>
+
+    <!--JS for Menu-->
+    <script>
+      var navLinks = document.getElementById("navbar-links");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>

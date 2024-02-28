@@ -21,48 +21,20 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
   </head>
   <body>
-    <!-- <nav class="navbar">
-      <div class="container">
-        <a href="index.html">
-          <img src="images/logo.png" alt="Logo HomeWorkout Website" />
-        </a>
-
-        <div class="main-menu">
-          <ul>
-            <li>
-              <a href="index.html"> <i class="fa-solid fa-house"></i>Home </a>
-            </li>
-            <li>
-              <a href="aboutus.html">
-                <i class="fa-solid fa-circle-info"></i>About Us
-              </a>
-            </li>
-            <li>
-              <a href="blog.html"> <i class="fa-solid fa-blog"></i>Blog </a>
-            </li>
-            <li>
-              <a class="btn btn-light" href="equipment.html">
-                <i class="fa fa-list-alt" aria-hidden="true"></i>Equipment
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>-->
-
     <section class="header1">
       <nav>
         <a href="index.html">
           <img src="images/logo.png" alt="Logo HomeWorkout Website" />
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="navbar-links">
+          <i class="fa fa-window-close" onclick="hideMenu()"></i>
           <ul>
             <li>
               <a href="index.html"> <i class="fa-solid fa-house"></i>Home </a>
             </li>
             <li>
-              <a href="aboutus.html">
-                <i class="fa-solid fa-circle-info"></i>About Us
+              <a href="contactus.html">
+                <i class="fa-solid fa-circle-info"></i>Contact Us
               </a>
             </li>
             <li>
@@ -75,20 +47,54 @@
             </li>
           </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
       <!-- Home title-->
       <div class="main">
         <h1 class="main-heading text-xxl">Home workout tips and equipment</h1>
-        <p>Transform Your Home Into Your Ultimate Fitness Sanctuary!</p>
+        <p class="text-xxl">
+          Transform Your Home Into Your Ultimate Fitness Sanctuary!
+        </p>
         <div class="main-buttons">
-          <a href="equipment.html" class="btn btn-dark"
+          <a href="equipment.html" class="btn btn-primary"
             ><i class="fa-solid fa-dumbbell"></i>
             Start now
           </a>
         </div>
       </div>
     </section>
+
+    <h1>
+      Transform Your Home into a Personal Gym with Amazon's Top Workout
+      Equipment.
+    </h1>
+    <p>
+      In today's fast-paced world, finding time to hit the gym can be a
+      challenge. But what if you could bring the gym to you? With the
+      convenience of Amazon and a wide range of workout equipment available at
+      your fingertips, transforming your home into a personal fitness haven has
+      never been easier. From adjustable dumbbells and resistance bands to yoga
+      mats and stationary bikes, Amazon offers a plethora of options to suit
+      every fitness level and space requirement. Whether you're a seasoned
+      athlete or just starting your fitness journey, there's something for
+      everyone. One of the key advantages of working out at home is flexibility.
+      Say goodbye to crowded gym spaces and waiting for equipment to become
+      available. With your own home gym setup, you can exercise on your
+      schedule, fitting workouts into even the busiest of days. Moreover,
+      investing in home workout equipment can be a cost-effective alternative to
+      gym memberships in the long run. With Amazon's competitive pricing and
+      frequent discounts, you can build a comprehensive home gym without
+      breaking the bank. But the benefits don't stop there. Working out from
+      home offers privacy and comfort, allowing you to focus solely on your
+      fitness goals without distractions. Plus, with the right equipment, you
+      can enjoy a diverse range of workouts, from strength training to cardio
+      and flexibility exercises. So why wait? Take the first step towards a
+      healthier lifestyle today by exploring Amazon's extensive collection of
+      workout equipment and start building your dream home gym. With dedication
+      and the right tools at your disposal, achieving your fitness goals has
+      never been more convenient or accessible.
+    </p>
 
     <!-- Footer-->
 
@@ -118,5 +124,16 @@
         <p>copyright &copy; StrongBodyPulse 2024</p>
       </div>
     </footer>
+
+    <!--JS for Menu-->
+    <script>
+      var navLinks = document.getElementById("navbar-links");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
