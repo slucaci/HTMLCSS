@@ -14,7 +14,7 @@ Welcome to HomeWorkout! Find curated equipment ideas from Amazon and expert nutr
 
 ## Logo
 
-![Logo](https://raw.githubusercontent.com/slucaci/Project1HTML-CSS/main/images/logo.png)
+![Logo](https://raw.githubusercontent.com/slucaci/Project1HTML-CSS/main/images/logo.webp)
 
 ## Authors
 
