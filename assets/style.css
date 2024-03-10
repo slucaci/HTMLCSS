@@ -533,6 +533,9 @@ iframe {
   .content {
     flex-direction: column;
   }
+  .aboutus {
+    flex-direction: column;
+  }
   .container-equipment .row .header h1 {
     padding-top: 30px;
     font-size: 30px;
