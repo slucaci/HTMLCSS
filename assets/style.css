@@ -12,7 +12,7 @@
       rgba(7, 55, 39, 0.258),
       rgba(112, 122, 160, 0.303)
     ),
-    url(images/home-workouts-1.webp);
+    url(images/home-workouts-1.avif);
 
   background-position: center;
   position: relative;
@@ -122,33 +122,24 @@ nav .fa {
   padding: 0 15px;
 }
 
-@media (max-width: 768px) {
-  .main h1 {
-    font-size: 20px;
-  }
-  .nav-links ul li {
-    display: block;
-  }
-  .nav-links {
-    position: absolute;
-    height: 40%;
-    width: 200px;
-    top: 0;
-    right: -400px;
-    text-align: left;
-    z-index: 2;
-    transition: 0.5s;
-  }
-  nav .fa {
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  .nav-links ul {
-    padding: 20px;
-  }
+/* Index classes */
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 60px auto;
+}
+.aboutus-content {
+  flex: 1;
+  width: 600px;
+  margin: 0px 10px;
+}
+
+.aboutus-image {
+  flex: 1;
+  width: 600px;
+  margin: auto;
 }
 
 /* Equipment classes */
@@ -209,7 +200,7 @@ nav .fa {
   height: auto;
 }
 
-.content .element h4 {
+.content .element h3 {
   margin-top: 10px;
   margin-left: 10px;
   font-size: 18px;
@@ -225,17 +216,6 @@ nav .fa {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 768px) {
-  .content {
-    flex-direction: column;
-  }
-  .container-equipment .row .header h1 {
-    padding-top: 30px;
-    font-size: 30px;
-    color: var(--dark-color);
-  }
 }
 
 /*Blog classes*/
@@ -288,18 +268,6 @@ nav .fa {
 
 .col-blog:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 768px) {
-  .row-blog {
-    display: inline-block;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .tips h1 {
-    font-size: 30px;
-  }
 }
 
 /* Text classes */
@@ -445,7 +413,7 @@ footer {
   height: 30px;
 }
 
-.footer-content h4 {
+.footer-content h3 {
   font-size: 20px;
   font-weight: 400;
   text-transform: capitalize;
@@ -561,5 +529,48 @@ iframe {
   .container-contact-left iframe {
     width: 150px;
     height: 150px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .container-equipment .row .header h1 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: var(--dark-color);
+  }
+  .main h1 {
+    font-size: 20px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    height: 40%;
+    width: 200px;
+    top: 0;
+    right: -400px;
+    text-align: left;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul {
+    padding: 20px;
+  }
+  .row-blog {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tips h1 {
+    font-size: 30px;
   }
 }
