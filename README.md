@@ -1,8 +1,12 @@
 # Home Workout
 
+![Image](assets/images/homeworkoutamiresponsive.png)
+
+Visit the deployed site: [HomeWorkout](https://slucaci.github.io/HTMLCSS/index.html)
+
 Welcome to HomeWorkout! Find curated equipment ideas from Amazon and expert nutrition tips to enhance your fitness journey. Start your path to a healthier lifestyle now!
 
-## Acknowledgements
+## CONTENTS
 
 ## Color Reference
 
@@ -14,7 +18,7 @@ Welcome to HomeWorkout! Find curated equipment ideas from Amazon and expert nutr
 
 ## Logo
 
-![Logo](https://raw.githubusercontent.com/slucaci/Project1HTML-CSS/main/images/logo.webp)
+![Logo](assets/images/logo.webp)
 
 ## Authors
 
