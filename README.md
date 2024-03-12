@@ -74,6 +74,7 @@ I have used the following colors:
 | Example Colour | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
 | Example Colour | ![#024bc0](https://via.placeholder.com/10/024bc0?text=+) #024bc0 |
 | Example Colour | ![#f4f4f6](https://via.placeholder.com/10/f4f4f6?text=+) #f4f4f6 |
+| Example Colour | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 ### Typography
 
@@ -118,7 +119,7 @@ All Pages on the website are responsive and have:
 - This is the mobile version of the nav bar.
   ![NavBar Mobile](assets/documentation/navbarmobile.png)
 
-- On the mobile version, I have used a script to hide it when the "x" icon is pressed, and pop the pages when the "navigation" icon is pressed.
+- On the mobile version, I have used a script to hide the nav bar when the "x" icon is pressed, and pop the pages when the "navigation" icon is pressed.
 
 3. Every page will display a pointer cursor
 
@@ -165,6 +166,7 @@ The "thank you" page is the only page that is not visible initially. It will app
 - Login script
 - Nutrition plans
 - Exercises explained
+- Script behind thankyou.html to send an email to my email address
 
 ### Accessibility
 
