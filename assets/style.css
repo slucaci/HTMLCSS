@@ -486,7 +486,7 @@ tr td {
 }
 
 iframe {
-  height: 300px;
+  height: 250px;
 }
 
 @media (max-width: 768px) {
@@ -512,6 +512,7 @@ iframe {
   }
   .aboutus-image {
     width: 250px;
+    height: 250px;
   }
   .container-equipment .row .header h1 {
     padding-top: 30px;
