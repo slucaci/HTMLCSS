@@ -225,19 +225,16 @@ nav .fa {
   margin: auto;
   text-align: center;
   padding-top: 100px;
-}
-
-.tips h1 {
-  font-size: 45px;
-  font-weight: 600;
-}
-
-.tips {
   color: var(--primary-color);
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+}
+
+.tips h1 {
+  font-size: 45px;
+  font-weight: 600;
 }
 
 .row-blog {
@@ -279,36 +276,11 @@ nav .fa {
   margin: 40px 0 20px;
 }
 
-.text-xl {
-  font-size: 44px;
-  line-height: 1.4;
-  font-weight: 600;
-  margin: 40px 0 20px;
-}
-
-.text-lg {
-  font-size: 28px;
-  line-height: 1.4;
-  font-weight: normal;
-  margin: 30px 0 20px;
-}
-
 .text-md {
   font-size: 19px;
   line-height: 1.4;
   font-weight: normal;
   margin: 20px 0 10px;
-}
-
-.text-sm {
-  font-size: 14px;
-  line-height: 1.4;
-  font-weight: normal;
-  margin: 10px 0 5px;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .bold-text {
@@ -355,11 +327,6 @@ nav .fa {
 .btn-dark:hover {
   background: blue;
   color: var(--light-color);
-}
-
-.btn-block {
-  display: block;
-  width: 100%;
 }
 
 /* Socials classes*/

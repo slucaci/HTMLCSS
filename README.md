@@ -257,6 +257,8 @@ I utilized various YouTube channels to deepen my understanding of HTML and CSS. 
 2. [Bro Code](https://www.youtube.com/@BroCodez)
 3. [tuv](https://www.youtube.com/@tutvid)
 
+I have checked [StackOverflow](https://stackoverflow.com/) for errors similars as mine.
+
 I have used [kera-cudmore](https://github.com/kera-cudmore/readme-examples) template to write the README file.
 
 ### Content
