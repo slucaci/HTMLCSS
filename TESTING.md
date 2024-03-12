@@ -1,15 +1,20 @@
 # Home Workout
 
-![Image](assets/images/homeworkoutamiresponsive.png)
+![Image](assets/documentation/homeworkoutamiresponsive.png)
 Visit the site deployed on github: [HomeWorkout](https://slucaci.github.io/HTMLCSS/index.html)
 
 ## CONTENTS
 
 - [AUTOMATED TESTING](#AUTOMATED-TESTING)
+
   - [W3C Validator](#W3C-Validator)
+
   - [Lighthouse](#Lighthouse)
+
 - [MANUAL TESTING](#MANUAL-TESTING)
+
   - [Testing User Stories](#Testing-User-Stories)
+
   - [Full Testing](#Full-Testing)
 
 ## AUTOMATED TESTING
@@ -28,3 +33,7 @@ Visit the site deployed on github: [HomeWorkout](https://slucaci.github.io/HTMLC
 
 - style.css file - 0 errors
   ![CSS Validator](assets/documentation/cssvalidator.png)
+
+### LightHouse
+
+I have used developer tools Lighthouse to do tests on my website pages on mobile and desktop version.

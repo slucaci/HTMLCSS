@@ -200,6 +200,7 @@ HTML, CSS and JavaScript.
 - [Cloud Convert](https://cloudconvert.com/webp-converter) - to convert the images into the webp format
 
 - [Github](https://github.com/) - to manage the website
+- [Veed.io](https://www.veed.io/tools/video-editor?utm_id=16880413186&utm_term=&utm_campaign=x_Search_PerfomanceMax_Youtube&utm_source=google&utm_medium=cpc&utm_content=_&hsa_acc=2332311570&hsa_cam=16880413186&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw-r-vBhC-ARIsAGgUO2Als1m0YkUgTA882xt2ChBn1a8RzUud-a-EYwbdCFy-ZG-zM8QHrwEaAkQXEALw_wcB) - to edit the videos.
 
 - [Google Fonts](https://fonts.google.com/)
 
@@ -246,13 +247,15 @@ Check the [TESTING.md](TESTING.md) file for a detailed summary of all testing pr
 
 ## Credits
 
-### Code useed
+### Code used
 
 I utilized various YouTube channels to deepen my understanding of HTML and CSS. Special thanks to the following channels:
 
 1. [SuperSimpleDev](https://www.youtube.com/@SuperSimpleDev)
 2. [Bro Code](https://www.youtube.com/@BroCodez)
 3. [tuv](https://www.youtube.com/@tutvid)
+
+I have used [kera-cudmore](https://github.com/kera-cudmore/readme-examples) template to write the README file.
 
 ### Content
 
