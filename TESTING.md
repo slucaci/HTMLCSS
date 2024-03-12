@@ -37,3 +37,19 @@ Visit the site deployed on github: [HomeWorkout](https://slucaci.github.io/HTMLC
 ### LightHouse
 
 I have used developer tools Lighthouse to do tests on my website pages on mobile and desktop version.
+
+#### Desktop Version
+
+![Home Page](assets/documentation/desktopindex.png)
+![Blog Page](assets/documentation/desktopblog.png)
+![Equipment Page](assets/documentation/desktopequipment.png)
+![Thank You Page](assets/documentation/desktopthankyou.png)
+
+#### Mobile Version
+
+![Home Page](assets/documentation/mobileindex.png)
+![Blog Page](assets/documentation/mobileblog.png)
+![Equipment Page](assets/documentation/mobileequipment.png)
+![Thank You Page](assets/documentation/mobilethankyou.png)
+
+## Manual Testing
