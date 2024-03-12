@@ -525,7 +525,7 @@ iframe {
     display: block;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     height: 40%;
     width: 200px;
     top: 0;
