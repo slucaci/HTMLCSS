@@ -1,6 +1,6 @@
 # Home Workout
 
-![Image](assets/images/homeworkoutamiresponsive.png)
+![Image](assets/documentation/HomeWorkoutAmIResponsive.png)
 
 Visit the site deployed on github: [HomeWorkout](https://slucaci.github.io/HTMLCSS/index.html)
 
