@@ -75,3 +75,8 @@ I have used developer tools Lighthouse to do tests on my website pages on mobile
 1. Find the form on "Contact Us" Page
 2. Try to press the submit button with 1 empty field
 3. Form will not send because all the fields are mandatory
+
+#### Links test
+
+1. Check if all links function corectly and make sure they open in a new tab when clicked
+2. Check if all links work effectively on different devices

@@ -28,7 +28,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: #fff;
+  background: white;
 }
 /* Navigation bar*/
 
@@ -82,7 +82,7 @@ nav .fa {
 /* Main */
 .main {
   width: 90%;
-  color: white;
+  color: var(--light-color);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -96,16 +96,7 @@ nav .fa {
 .main p {
   margin: 10px 0 40px;
   font-size: 14px;
-  color: white;
-}
-
-.main .main-content {
-  width: 70%;
-}
-
-.main .main-text {
-  width: 70%;
-  margin-bottom: 20px;
+  color: var(--light-color);
 }
 
 /* CLASSES */
@@ -506,7 +497,7 @@ iframe {
     text-align: center;
   }
   .aboutus-content {
-    width: 250px;
+    width: 500px;
     align-items: center;
     text-align: center;
   }
@@ -564,6 +555,8 @@ iframe {
   }
   .aboutus-content {
     width: 400px;
+    align-items: center;
+    text-align: center;
   }
   .aboutus-image {
     width: 400px;
@@ -579,9 +572,9 @@ iframe {
     height: 150px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .row-blog .col-blog {
-    width: 180px;
+    width: 250px;
     height: 400px;
     overflow: auto;
   }
