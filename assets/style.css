@@ -558,9 +558,15 @@ iframe {
 
 @media (max-width: 650px) {
   .row-blog .col-blog {
-    width: 200px;
+    width: 300px;
     height: 400px;
     overflow: auto;
+  }
+  .aboutus-content {
+    width: 400px;
+  }
+  .aboutus-image {
+    width: 400px;
   }
 }
 
@@ -571,5 +577,21 @@ iframe {
   .container-contact2 .container-contact-left iframe {
     width: 150px;
     height: 150px;
+  }
+}
+@media (max-width: 300px) {
+  .row-blog .col-blog {
+    width: 180px;
+    height: 400px;
+    overflow: auto;
+  }
+  .aboutus-content {
+    width: 250px;
+  }
+  .aboutus-image {
+    width: 250px;
+  }
+  .container-contact-right {
+    font-size: 12px;
   }
 }
